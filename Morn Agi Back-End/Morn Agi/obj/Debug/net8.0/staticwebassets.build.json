@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "VHTbt4Tn7m6tuKbwfu7Q1aEr5j7dKBO2jeyazXHwSpA=",
+  "Source": "AGIMorn.web",
+  "BasePath": "_content/AGIMorn.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AGIMorn.web\\wwwroot",
+      "Source": "AGIMorn.web",
+      "ContentRoot": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\wwwroot\\",
+      "BasePath": "_content/AGIMorn.web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

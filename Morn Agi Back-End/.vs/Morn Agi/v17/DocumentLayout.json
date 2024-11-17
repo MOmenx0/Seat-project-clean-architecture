@@ -1,0 +1,991 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\models\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\models\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|solutionrelative:agi.morn.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.domain\\entities\\baseentitys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|solutionrelative:agi.morn.domain\\entities\\baseentitys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\migrations\\20241014110419_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\migrations\\20241014110419_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\endpoints\\proudctprand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\endpoints\\proudctprand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\endpoints\\proudcttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\endpoints\\proudcttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\endpoints\\proudctendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\endpoints\\proudctendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.domain\\entities\\productprand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|solutionrelative:agi.morn.domain\\entities\\productprand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.domain\\entities\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|solutionrelative:agi.morn.domain\\entities\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.domain\\entities\\producttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D901C6A2-4C28-46C8-87E1-6784F7A44840}|AGI.Morn.Domain\\AGI.Morn.Domain.csproj|solutionrelative:agi.morn.domain\\entities\\producttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\productprandcases\\validators\\productprandvalidaitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\productprandcases\\validators\\productprandvalidaitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\repository\\base\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\repository\\base\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\specifications\\specifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\specifications\\specifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\specifications\\specificationsevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\specifications\\specificationsevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\dependencyinjecrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\dependencyinjecrtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\behaviours\\validationeroor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\behaviours\\validationeroor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\behaviours\\validationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\behaviours\\validationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\interfaces\\ispecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\interfaces\\ispecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\configurations\\testsconfigurationscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\configurations\\testsconfigurationscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\configurations\\productconfigurationscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\configurations\\productconfigurationscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\repositories\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\repositories\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\testscases\\commands\\createtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\testscases\\commands\\createtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\productprandcases\\commands\\createproductprand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\productprandcases\\commands\\createproductprand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\proudctcase\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\proudctcase\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\proudctcase\\queries\\getallproudctwithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\proudctcase\\queries\\getallproudctwithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\testscases\\dto\\getalldtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\testscases\\dto\\getalldtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\proudctcase\\dto\\proudctdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\proudctcase\\dto\\proudctdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\proudctcase\\queries\\getallproudct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\proudctcase\\queries\\getallproudct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\productprandcases\\queries\\getallprands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\productprandcases\\queries\\getallprands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|d:\\.net8 seat project\\morn agi back-end\\agimorn.infrastructure\\repository\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA321DA-BA7D-4FBA-BF62-D9F96AB8CAEA}|AGIMorn.Infrastructure\\AGI.Morn.Infrastructure.csproj|solutionrelative:agimorn.infrastructure\\repository\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       0 !     \u0022     ",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       0 !     \u0022     "
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\extensions\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\extensions\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\extensions\\methodinfoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\extensions\\methodinfoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\extensions\\endpointgroupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\extensions\\endpointgroupbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\dependencyinjectioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\dependencyinjectioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\testscases\\validators\\testvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\testscases\\validators\\testvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|d:\\.net8 seat project\\morn agi back-end\\morn agi\\endpoints\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A591A5-3CC7-4AC3-AD8C-1913A29ABA31}|Morn Agi\\AGIMorn.web.csproj|solutionrelative:morn agi\\endpoints\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\testscases\\queries\\gettestbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\testscases\\queries\\gettestbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\testscases\\queries\\getalltestsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\testscases\\queries\\getalltestsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\testscases\\queries\\getonequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\testscases\\queries\\getonequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\specifications\\proudctwithtypeandprandsspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\specifications\\proudctwithtypeandprandsspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\proudctcase\\command\\addproudct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\proudctcase\\command\\addproudct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\common\\specifications\\productspecprams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\common\\specifications\\productspecprams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|d:\\.net8 seat project\\morn agi back-end\\agi.morn.application\\usecases\\proudctcase\\command\\updateproudctcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6022633F-0F67-4D8D-8479-C05BE17E3D7F}|AGI.Morn.Application\\AGI.Morn.Application.csproj|solutionrelative:agi.morn.application\\usecases\\proudctcase\\command\\updateproudctcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241014110419_products.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Migrations\\20241014110419_products.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Migrations\\20241014110419_products.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Migrations\\20241014110419_products.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Migrations\\20241014110419_products.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:10:19.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntitys.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\BaseEntitys.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Domain\\Entities\\BaseEntitys.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\BaseEntitys.cs",
+              "RelativeToolTip": "AGI.Morn.Domain\\Entities\\BaseEntitys.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:57:00.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Exceptions\\ValidationException.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Exceptions\\ValidationException.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAABIPRIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:48:43.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataResponse.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Models\\DataResponse.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Models\\DataResponse.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Models\\DataResponse.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Models\\DataResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:59:26.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "AGI.Morn.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:56:50.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:10:16.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\GlobalUsings.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\GlobalUsings.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:14:24.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProudctPrand.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\ProudctPrand.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Endpoints\\ProudctPrand.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\ProudctPrand.cs",
+              "RelativeToolTip": "Morn Agi\\Endpoints\\ProudctPrand.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:48:05.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProudctEndPoint.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\ProudctEndPoint.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Endpoints\\ProudctEndPoint.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\ProudctEndPoint.cs",
+              "RelativeToolTip": "Morn Agi\\Endpoints\\ProudctEndPoint.cs",
+              "ViewState": "AQIAABwAAAAAzMzMzMwiwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:53:42.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProudctType.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\ProudctType.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Endpoints\\ProudctType.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\ProudctType.cs",
+              "RelativeToolTip": "Morn Agi\\Endpoints\\ProudctType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:54:21.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAABgPRkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T08:50:07.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:54:19.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "productPrand.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\productPrand.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Domain\\Entities\\productPrand.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\productPrand.cs",
+              "RelativeToolTip": "AGI.Morn.Domain\\Entities\\productPrand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:56:57.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\Tests.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Domain\\Entities\\Tests.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\Tests.cs",
+              "RelativeToolTip": "AGI.Morn.Domain\\Entities\\Tests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:56:45.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "productTypes.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\productTypes.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Domain\\Entities\\productTypes.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Domain\\Entities\\productTypes.cs",
+              "RelativeToolTip": "AGI.Morn.Domain\\Entities\\productTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:56:58.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductPrandValidaitors.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProductPrandCases\\Validators\\ProductPrandValidaitors.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProductPrandCases\\Validators\\ProductPrandValidaitors.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProductPrandCases\\Validators\\ProductPrandValidaitors.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProductPrandCases\\Validators\\ProductPrandValidaitors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:49:24.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Repository\\Base\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Repository\\Base\\UnitOfWork.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Repository\\Base\\UnitOfWork.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Repository\\Base\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:22:42.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Repository\\Base\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Repository\\Base\\BaseRepository.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Repository\\Base\\BaseRepository.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Repository\\Base\\BaseRepository.cs",
+              "ViewState": "AQIAAKMAAAAgMjMzMzMwwAYBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T08:50:46.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Specifications.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\Specifications.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Specifications\\Specifications.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\Specifications.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Specifications\\Specifications.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:42:46.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SpecificationsEvaluator.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\SpecificationsEvaluator.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Specifications\\SpecificationsEvaluator.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\SpecificationsEvaluator.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Specifications\\SpecificationsEvaluator.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:45:22.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DependencyInjecrtion.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\DependencyInjecrtion.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\DependencyInjecrtion.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\DependencyInjecrtion.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\DependencyInjecrtion.cs",
+              "ViewState": "AQIAAAgAAAB4LDMzMzMbwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:47:35.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAcAAAAgMTMzMzMrwCoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:33:27.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ValidationEroor.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Behaviours\\ValidationEroor.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Behaviours\\ValidationEroor.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Behaviours\\ValidationEroor.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Behaviours\\ValidationEroor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:17:28.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ValidationBehaviour.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Behaviours\\ValidationBehaviour.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwBQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:55:50.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISpecifications.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Interfaces\\ISpecifications.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Interfaces\\ISpecifications.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Interfaces\\ISpecifications.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Interfaces\\ISpecifications.cs",
+              "ViewState": "AQIAAAUAAACAMjMzMzMbwBMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:05:12.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\GlobalUsing.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\GlobalUsing.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\GlobalUsing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:13:44.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IunitOfWork.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Interfaces\\IunitOfWork.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Interfaces\\IunitOfWork.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Interfaces\\IunitOfWork.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Interfaces\\IunitOfWork.cs",
+              "ViewState": "AQIAAA8AAADAMjMzMzMwwBIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:33:23.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TestsConfigurationscs.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Configurations\\TestsConfigurationscs.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Configurations\\TestsConfigurationscs.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Configurations\\TestsConfigurationscs.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Configurations\\TestsConfigurationscs.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:43:22.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductConfigurationscs.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Configurations\\ProductConfigurationscs.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Configurations\\ProductConfigurationscs.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Configurations\\ProductConfigurationscs.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Configurations\\ProductConfigurationscs.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:42:57.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Models\\PaginatedList.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Models\\PaginatedList.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:23:12.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ITestRepository.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Repositories\\ITestRepository.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Repositories\\ITestRepository.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Repositories\\ITestRepository.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Repositories\\ITestRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:56:05.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateTest.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Commands\\CreateTest.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\TestsCases\\Commands\\CreateTest.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Commands\\CreateTest.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\TestsCases\\Commands\\CreateTest.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wCEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:55:06.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateProductPrand.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProductPrandCases\\Commands\\CreateProductPrand.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProductPrandCases\\Commands\\CreateProductPrand.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProductPrandCases\\Commands\\CreateProductPrand.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProductPrandCases\\Commands\\CreateProductPrand.cs",
+              "ViewState": "AQIAABEAAAAYzczMzMwQwCAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:59:17.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetProductByIdQuery.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetProductByIdQuery.cs",
+              "ViewState": "AQIAAA8AAAAAFDMzMzMbwCUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:44:52.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetAllProudctWithFilter.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudctWithFilter.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudctWithFilter.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudctWithFilter.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudctWithFilter.cs",
+              "ViewState": "AQIAAA8AAAAAMjMzMzMvwBIAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:55:12.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetAllDtocs.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\DTO\\GetAllDtocs.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\TestsCases\\DTO\\GetAllDtocs.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\DTO\\GetAllDtocs.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\TestsCases\\DTO\\GetAllDtocs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T08:48:46.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProudctDto.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\DTO\\ProudctDto.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProudctCase\\DTO\\ProudctDto.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\DTO\\ProudctDto.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProudctCase\\DTO\\ProudctDto.cs",
+              "ViewState": "AQIAAAgAAAAgMzMzMzM5wA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:36:13.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetAllProudct.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudct.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudct.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudct.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProudctCase\\Queries\\GetAllProudct.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:44:27.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetAllPrands.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProductPrandCases\\Queries\\GetAllPrands.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProductPrandCases\\Queries\\GetAllPrands.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProductPrandCases\\Queries\\GetAllPrands.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProductPrandCases\\Queries\\GetAllPrands.cs",
+              "ViewState": "AQIAAAMAAAAAMTMzMzMLwA4AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:55:51.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TestRepository.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Repository\\Repositories\\TestRepository.cs",
+              "RelativeDocumentMoniker": "AGIMorn.Infrastructure\\Repository\\Repositories\\TestRepository.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGIMorn.Infrastructure\\Repository\\Repositories\\TestRepository.cs",
+              "RelativeToolTip": "AGIMorn.Infrastructure\\Repository\\Repositories\\TestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:14:55.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Program.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Program.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Program.cs",
+              "RelativeToolTip": "Morn Agi\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:56:21.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AGI.Morn.Application.dll - 1 [Neutral] - Version",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll - 1 [Neutral] - Version",
+              "RelativeToolTip": "AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll - 1 [Neutral] - Version",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-10-27T18:45:32.701Z",
+              "EditorCaption": " - 1 [Neutral] - Version"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AGI.Morn.Application.dll",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll",
+              "RelativeToolTip": "AGI.Morn.Application\\bin\\Debug\\net8.0\\AGI.Morn.Application.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-10-27T18:45:28.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CustomExceptionHandler.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\CustomExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Extensions\\CustomExceptionHandler.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\CustomExceptionHandler.cs",
+              "RelativeToolTip": "Morn Agi\\Extensions\\CustomExceptionHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:48:51.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MethodInfoExtensions.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\MethodInfoExtensions.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Extensions\\MethodInfoExtensions.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\MethodInfoExtensions.cs",
+              "RelativeToolTip": "Morn Agi\\Extensions\\MethodInfoExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:01:00.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SwaggerExtensions.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\SwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Extensions\\SwaggerExtensions.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\SwaggerExtensions.cs",
+              "RelativeToolTip": "Morn Agi\\Extensions\\SwaggerExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:00:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EndpointGroupBase.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\EndpointGroupBase.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Extensions\\EndpointGroupBase.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\EndpointGroupBase.cs",
+              "RelativeToolTip": "Morn Agi\\Extensions\\EndpointGroupBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:00:55.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WebApplicationExtensions.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\WebApplicationExtensions.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Extensions\\WebApplicationExtensions.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Extensions\\WebApplicationExtensions.cs",
+              "RelativeToolTip": "Morn Agi\\Extensions\\WebApplicationExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:34:49.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DependencyInjectioncs.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\DependencyInjectioncs.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\DependencyInjectioncs.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\DependencyInjectioncs.cs",
+              "RelativeToolTip": "Morn Agi\\DependencyInjectioncs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:53:30.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TestValidator.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Validators\\TestValidator.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\TestsCases\\Validators\\TestValidator.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Validators\\TestValidator.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\TestsCases\\Validators\\TestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:50:02.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\Tests.cs",
+              "RelativeDocumentMoniker": "Morn Agi\\Endpoints\\Tests.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\Morn Agi\\Endpoints\\Tests.cs",
+              "RelativeToolTip": "Morn Agi\\Endpoints\\Tests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:54:26.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Helper\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Helper\\MappingProfiles.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Helper\\MappingProfiles.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Helper\\MappingProfiles.cs",
+              "ViewState": "AQIAAA0AAACAmZmZmZkTwB0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:39:10.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetTestById.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetTestById.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetTestById.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetTestById.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetTestById.cs",
+              "ViewState": "AQIAAAAAAADAKTMzMzMbwB4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:57:18.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GetOneQuery.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetOneQuery.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetOneQuery.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetOneQuery.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetOneQuery.cs",
+              "ViewState": "AQIAAAoAAACAKTMzMzMLwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:57:04.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GetAllTestsQuery.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetAllTestsQuery.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetAllTestsQuery.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetAllTestsQuery.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\TestsCases\\Queries\\GetAllTestsQuery.cs",
+              "ViewState": "AQIAAAgAAACwMjMzMzMrwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:55:27.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProudctWithTypeAndPrandsSpecifications.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\ProudctWithTypeAndPrandsSpecifications.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Specifications\\ProudctWithTypeAndPrandsSpecifications.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\ProudctWithTypeAndPrandsSpecifications.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Specifications\\ProudctWithTypeAndPrandsSpecifications.cs",
+              "ViewState": "AQIAAAIAAABgMDMzMzMLwBEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:53:15.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AddProudct.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\AddProudct.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\AddProudct.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\AddProudct.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\AddProudct.cs",
+              "ViewState": "AQIAAAsAAAAA/v//////vxIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:38:33.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductSpecPrams.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\ProductSpecPrams.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\Common\\Specifications\\ProductSpecPrams.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\Common\\Specifications\\ProductSpecPrams.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\Common\\Specifications\\ProductSpecPrams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:27:04.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UpdateProudctcs.cs",
+              "DocumentMoniker": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\UpdateProudctcs.cs",
+              "RelativeDocumentMoniker": "AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\UpdateProudctcs.cs",
+              "ToolTip": "D:\\.NET8 Seat Project\\Morn Agi Back-End\\AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\UpdateProudctcs.cs",
+              "RelativeToolTip": "AGI.Morn.Application\\UseCases\\ProudctCase\\Command\\UpdateProudctcs.cs",
+              "ViewState": "AQIAAAUAAABAMjMzMzMnwA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:26:26.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
